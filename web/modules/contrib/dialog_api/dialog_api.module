@@ -1,0 +1,95 @@
+<?php
+
+/**
+ * @file
+ * Contains dialog_api.module.
+ */
+
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Extension\Extension;
+use Drupal\Core\Render\Element;
+use Drupal\Core\Render\Markup;
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\StringTranslation\TranslatableMarkup;
+
+define('DIALOG_API_REGION', 'dialog_api');
+
+/**
+ * Implements hook_help().
+ */
+function dialog_api_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the dialog_api module.
+    case 'help.page.dialog_api':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides the UI for triggering content-driven dialogs.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function dialog_api_theme($existing, $type, $theme, $path) {
+  return [
+    'dialog_api_dialog' => [
+      'variables' => [
+        'attributes' => NULL,
+        'children' => NULL,
+        'close_button' => NULL,
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_system_info_alter().
+ */
+function dialog_api_system_info_alter(array &$info, Extension $file, $type) {
+  if ($type == 'theme') {
+    $info['regions'][DIALOG_API_REGION] = 'Modal dialog';
+  }
+}
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function dialog_api_preprocess_page(&$variables) {
+  if (!empty($variables['page'][DIALOG_API_REGION])) {
+    $dialog_region = $variables['page'][DIALOG_API_REGION];
+    foreach (Element::children($dialog_region) as $id) {
+      $dialog = [
+        'block' => $dialog_region[$id],
+        '#theme_wrappers' => ['dialog_api_dialog'],
+        '#attributes' => [
+          'id' => Html::getUniqueId("dialog-api--block--$id"),
+          'class' => ['dialog-api--dialog'],
+        ],
+        '#close_button' => [
+          '#type' => 'button',
+          '#value' => 'close',
+          '#attributes' => [
+            'class' => ['dialog-api--dialog--close'],
+            'onclick' => 'this.closest(".dialog-api--dialog").close()',
+          ]
+        ],
+      ];
+      $dialog_region[$id] = $dialog;
+    }
+    // Don't add any additional markup. The dialogs will be hidden by default.
+    unset($dialog_region['#theme_wrappers']);
+    unset($dialog_region['#region']);
+    $variables['page']['content'][DIALOG_API_REGION] = $dialog_region;
+    unset($variables['page'][DIALOG_API_REGION]);
+  }
+}
+
+/**
+ * Implements hook_page_attachments().
+ */
+function dialog_api_page_attachments(&$attachments) {
+  $attachments['#attached']['library'][] = 'dialog_api/ui_manager';
+}

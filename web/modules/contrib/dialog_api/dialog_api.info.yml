@@ -1,0 +1,12 @@
+name: 'Dialog api'
+type: module
+description: 'Makes it possible to display drupal blocks with the core Dialog API.'
+core: 8.x
+package: 'User interface'
+dependencies:
+  - polyfill:polyfill
+
+# Information added by Drupal.org packaging script on 2019-09-19
+version: '8.x-1.0-alpha4'
+project: 'dialog_api'
+datestamp: 1568891893

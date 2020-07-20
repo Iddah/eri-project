@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+/**
+ * Use language code for the language switcher
+ */
+function eri_form_search_api_form_alter(&$form, &$form_state) {
+  $form['keys']['#attributes']['placeholder'][] = t('Search');
+  $form['actions']['submit']['#value'] = html_entity_decode('&#xf002;');
+}
+
+?>

@@ -1,0 +1,5 @@
+name: Organizations Module
+description: Environmental Rights Organizations
+type: module
+core: 8.x
+version: 0.1-dev

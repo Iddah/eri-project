@@ -1,0 +1,10 @@
+ui_manager:
+  version: 1.x
+  webpack: true
+  css:
+    theme:
+      libraries/ui_manager/dialog_api.css: {}
+  js:
+    libraries/ui_manager/dist/index.js: { preprocess: false, source: 'libraries/ui_manager/src/index.js' }
+  dependencies:
+    - polyfill/dialog

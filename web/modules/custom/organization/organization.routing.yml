@@ -1,0 +1,7 @@
+organization.form:
+  path: '/add-organization'
+  defaults:
+    _title: 'Add Organization'
+    _form: '\Drupal\organization\Form\OrganizationForm'
+  requirements:
+    _permission: 'access content'

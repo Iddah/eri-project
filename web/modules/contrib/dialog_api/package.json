@@ -1,0 +1,13 @@
+{
+  "name": "dialog_api",
+  "version": "1.0.0",
+  "description": "Makes it possible to display drupal blocks with the core Dialog API.",
+  "main": "libraries/ui_manager/dist/index.js",
+  "repository": "https://git.drupalcode.org/project/dialog_api",
+  "author": "Błażej Owczarczyk",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "js-cookie": "^2.2.1"
+  }
+}

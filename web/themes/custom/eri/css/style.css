@@ -1,0 +1,425 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+ @import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
+
+.navbar{
+	border: 0px
+}
+.navbar-default .navbar-nav > li > a{
+  color: #090808;
+}
+
+.navbar-nav {
+	float: right;
+	font-weight: bold;
+  	margin-top: 3em;
+}
+
+.menu--footer .nav > li > a {
+	display:inline;
+}
+
+.navbar-language{
+	float: right;
+}
+
+.eri-logo{
+  	width: 30em;
+    height: auto;
+  }
+
+.breadcrumb {
+	background-color: transparent;
+	color:white;
+}
+
+.breadcrumb li a{
+	color:white;
+}
+
+.breadcrumb .active {
+    color: #f9f5f5;
+}
+
+.site-footer {
+	background:#009fe3;
+	color: white;
+	padding: 50px 0 0 0;
+}
+/*header image and secion*/
+
+.jumbotron {
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
+		url(http://drupal.rights/sites/default/files/inline-images/Birhan-wider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+
+  .top-info{
+  	 padding-top: 30px;
+  }
+   .top-info h5 {
+  	  font-size: 30px;
+      color: #FFFFFF !important;
+      font-weight: bold;
+  }
+
+  .top-info p {
+  	font-family: Roboto;
+  	font-size: 15px;
+  	column-count:2;
+  	column-gap:40px;
+  	line-height: 24px;
+  	color: #FFFFFF;
+  	padding-top: 5px;
+}
+.top-info a {
+	font-size: 12px;
+	padding-left: 5px;
+	color: black;
+	text-decoration: underline;
+}
+
+.h1
+{
+	font-size: 55px;
+	line-height: 65px;
+	font-weight: 700;
+}
+
+/*region title bar*/
+
+.region-title-bar {
+	background-color: #4aa035;
+	color: #FFFFFF;
+	height: 200px;
+    font-family: roboto;
+    line-height: 2;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+.featured-top_inner{
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+
+/*Organization finder section*/
+
+.region-organization {
+	background-color: #4aa035;
+	 color: #FFFFFF;
+  	font-family: Roboto;
+    font-size: 16px;
+   bottom: 100px;
+   position: relative;
+}
+
+.org-finder h4{
+	font-size: 24px;
+    font-family: roboto regular;
+    padding-left: 15px;
+}
+
+.org-finder h5 {
+	font-size: 20px;
+    color: #00548B !important;
+
+}
+
+.org-finder p{
+    font-size: 18px;
+    font-family: roboto regular;
+	padding: 10px 20px;
+}
+
+.org-finder a {
+	font-size: 12px;
+	padding-left: 5px;
+	color: black;
+	text-decoration: underline;
+}
+
+.organization-results .views-exposed-form {
+ padding-left: 20px;
+}
+
+/*hidding the home page exposed filter labels */
+.organization-results .control-label{
+font-size: 0;
+}
+
+.organization-results .view-content{
+	background-color: #f9f5f5;
+	border: solid 1px #e6e3e3;
+}
+
+/*Organization page*/
+
+.node-teaser{
+	border-top: 1px solid #DDDDDD;
+	font-size: 14px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.node-teaser .field--name-field-image {
+	padding-top: 20px;
+}
+
+.node-teaser a{
+	margin-bottom: 5px;
+	color: #4C9F38;
+	text-decoration: none;
+	font-family: roboto bold;
+	font-size: 28px;
+	line-height: 27px;
+}
+
+.node-teaser  p{
+	font-family: roboto regular;
+	font-size: 16px;
+	color: #1E1E1E;
+	padding: 10px 0 5px 0;
+}
+
+.node-teaser .field--label{
+	font-weight: normal;
+	font-family: roboto regular;
+	font-size: 14px;
+	color: #666;
+}
+
+.node-teaser .field--name-field-country{
+	font-weight: bold;
+	color: #1E1E1E;
+	float: left;
+	width: 30%;
+}
+
+.node-teaser .field--name-field-type-of-organization{
+	font-weight: bold;
+	color: #1E1E1E;
+}
+
+.node-teaser .field--name-field-type-of-legal-services-pro{
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #1E1E1E;
+
+}
+
+.node-full a{
+	margin-bottom: 5px;
+	color: #4C9F38;
+	text-decoration: none;
+	font-family: roboto bold;
+	line-height: 27px;
+}
+
+.node-full  p{
+	font-family: roboto regular;
+	font-size: 16px;
+	color: #1E1E1E;
+	padding: 10px 0 5px 0;
+}
+
+.node-full .field--label{
+	font-weight: normal;
+	font-family: roboto regular;
+	font-size: 14px;
+	color: #666;
+}
+
+.node-full .field--name-body {
+	border-top: solid 1px #DDD;
+	border-bottom: solid 1px #DDD;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.node-full .field--name-field-country{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.node-full .field--name-field-type-of-organization{
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+
+.node-full .field--name-field-type-of-legal-services-pro{
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.node-full .field--name-field-website-name{
+ 	font-size: 14px;
+ 	padding-top: 10px;
+	padding-bottom:
+}
+ 
+ .node-full .field--name-field-e-mail-address{
+ 	padding-top: 10px;
+	float: left;
+	padding-bottom: 10px;
+	color: #4C9F38;
+	font-weight: bold;
+ }
+
+ .node-full .field--name-field-telephone {
+ 	padding-top: 5px;
+	color: #4C9F38;
+	font-weight: bold;
+ }
+
+
+ .node-full .field--name-field-image{
+ 	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-left: 80px
+ }
+
+.side-bar {
+	background-color: #e4e0e0;
+	height: 700px;
+	padding-left: 30px;
+}
+
+.side-bar a{
+font-size: 14px;
+color:#1a62bb;
+font-family: roboto regular;
+}
+
+.page-header{
+	border-bottom: transparent;
+	background-color: #4aa035;
+}
+	
+.page-header h1{
+	border-bottom: transparent;
+	background-color: #4aa035;
+	font-size: 38px;
+	font-family: roboto bold;
+	line-height: 48px;
+	letter-spacing: normal;
+	align-content: left;
+}
+
+.page-header p{
+	font-family: roboto regular;
+	font-size: 20px;
+	line-height: 28px;
+	color: #FFF;
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+.flex-div {
+  display: flex;
+}
+
+/*Single organization listing page*/
+.region-sidebar-first{
+  background-color: #F5F5F5;
+}
+
+.facet-item {
+  list-style-type: none;
+}
+
+.facet-item input[type="checkbox"]
+{
+	 margin-right: 5px;
+}
+
+.facet-item label{
+	font-weight: 500;
+	font-size: 14px;
+	color: #333333;
+	margin-left: 5px;
+}
+
+.facets-dropdown{
+	width: 80%;
+	padding-top: 10px;
+	background-color: white;
+	margin: 1px 0 5px 20px;
+	font-family: roboto;
+	border: none;
+	padding: 12px 16px;
+}
+
+.facets-widget-dropdown h3{
+	font-size: 16px;
+	font-family: Roboto Bold;
+	line-height: 27px;
+	align: left;
+	color: #333;
+	letter: -25px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.facets-widget-checkbox h3{
+	font-size: 16px;
+	font-family: Roboto Bold;
+	line-height: 27px;
+	align: left;
+	color: #333;
+	letter: -25px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+/*news and stories*/
+
+.form-inline .form-control {
+  inline-size: 200px;
+}
+  
+.featured-story-list{
+  list-style-type: none;
+  padding: 0px;
+}
+
+.featured-story-list a{
+  color: black;
+  bottom: 0px;
+  background-color: white;
+  height: 100px;
+  position: absolute;
+  width: 300px;
+  font-size: 16px;
+line-height: 24px;
+font-weight: bold;
+}
+
+.story-label{
+	 font-family: roboto;
+	font-size: 14px;
+	color: #0E0E0E;
+	padding-top: 5px;
+}
+
+.row-items-stories a{
+	font-family: roboto;
+	color: #1E1E1E;
+	font-weight: bold;
+	line-height: 5px;
+	width:80% !important;
+}
+
+.input#edit-submit {
+	font-family: 'Font Awesome\ 5 Free';
+	background-color: transparent;
+	border: 0;  
+}

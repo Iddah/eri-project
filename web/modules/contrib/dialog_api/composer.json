@@ -1,0 +1,26 @@
+{
+  "name": "drupal/dialog_api",
+  "type": "drupal-module",
+  "description": "Provides the UI for triggering content-driven dialogs.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/dialog_api",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/dialog_api",
+    "source": "http://cgit.drupalcode.org/dialog_api"
+  },
+  "require": {
+    "drupal/polyfill": "^1.3"
+  },
+  "require-dev": {
+    "drupal/webpack_babel": "^1.0@alpha"
+  },
+  "authors": [
+    {
+      "name": "Błażej Owczarczyk",
+      "email": "blazeyy@gmail.com",
+      "role": "Developer"
+    }
+  ]
+}

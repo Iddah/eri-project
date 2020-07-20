@@ -1,0 +1,22 @@
+babel:
+  version: 1.x
+  js:
+    libraries/babel/polyfill.min.js: { minified: true }
+
+fetch:
+  version: 1.x
+  js:
+    libraries/fetch/fetch.js: { }
+
+webcomponents:
+  version: 1.x
+  js:
+    libraries/webcomponents/webcomponents.min.js: { minified: true }
+
+dialog:
+  version: 1.x
+  js:
+    libraries/dialog/dialog-polyfill.js: { }
+  css:
+    theme:
+      libraries/dialog/dialog-polyfill.css: { }

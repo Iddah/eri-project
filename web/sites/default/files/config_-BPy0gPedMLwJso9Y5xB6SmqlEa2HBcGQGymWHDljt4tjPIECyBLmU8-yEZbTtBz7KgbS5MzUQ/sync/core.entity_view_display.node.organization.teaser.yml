@@ -1,0 +1,80 @@
+uuid: 779b5193-e810-4a83-af7d-fd7f4de3b44a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.organization.body
+    - field.field.node.organization.field_contact_email
+    - field.field.node.organization.field_contact_name
+    - field.field.node.organization.field_country
+    - field.field.node.organization.field_e_mail_address
+    - field.field.node.organization.field_image
+    - field.field.node.organization.field_phone_number
+    - field.field.node.organization.field_region
+    - field.field.node.organization.field_telephone
+    - field.field.node.organization.field_type_of_legal_services_pro
+    - field.field.node.organization.field_type_of_organization
+    - field.field.node.organization.field_website_name
+    - node.type.organization
+  module:
+    - image
+    - text
+    - user
+id: node.organization.teaser
+targetEntityType: node
+bundle: organization
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 300
+    third_party_settings: {  }
+    region: content
+  field_country:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+  field_image:
+    type: image
+    weight: 6
+    region: content
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_type_of_legal_services_pro:
+    type: entity_reference_label
+    weight: 4
+    region: content
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+  field_type_of_organization:
+    type: entity_reference_label
+    weight: 3
+    region: content
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+hidden:
+  field_contact_email: true
+  field_contact_name: true
+  field_e_mail_address: true
+  field_phone_number: true
+  field_region: true
+  field_telephone: true
+  field_website_name: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

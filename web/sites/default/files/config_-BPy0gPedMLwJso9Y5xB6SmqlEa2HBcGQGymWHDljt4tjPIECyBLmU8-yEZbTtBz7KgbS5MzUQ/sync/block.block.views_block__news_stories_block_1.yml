@@ -1,0 +1,30 @@
+uuid: ba1cd035-bcc3-44dd-b625-45f2ae64f61e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_stories
+  module:
+    - system
+    - views
+  theme:
+    - eri
+id: views_block__news_stories_block_1
+theme: eri
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:news_stories-block_1'
+settings:
+  id: 'views_block:news_stories-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '10'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

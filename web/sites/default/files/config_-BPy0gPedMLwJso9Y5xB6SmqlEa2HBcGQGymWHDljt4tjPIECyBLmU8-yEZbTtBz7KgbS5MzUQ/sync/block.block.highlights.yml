@@ -1,0 +1,31 @@
+uuid: 0f78873c-9e45-4de3-b323-da193e4d6624
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c2671364-45ef-43dd-995c-28b3b9ecf0b0'
+  module:
+    - block_content
+    - system
+  theme:
+    - eri
+id: highlights
+theme: eri
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'block_content:c2671364-45ef-43dd-995c-28b3b9ecf0b0'
+settings:
+  id: 'block_content:c2671364-45ef-43dd-995c-28b3b9ecf0b0'
+  label: Highlights
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,41 @@
+uuid: dbed819e-b7da-4495-95b2-a2fab2ce2de3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.highlights.body
+    - field.field.node.highlights.field_top_highlight
+    - node.type.highlights
+  module:
+    - text
+    - user
+id: node.highlights.default
+targetEntityType: node
+bundle: highlights
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_top_highlight:
+    weight: 102
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

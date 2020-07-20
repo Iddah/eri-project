@@ -1,0 +1,8 @@
+uuid: 6e637d28-6a29-4c35-bb63-739ab20e471c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Organization Type'
+vid: organization_type
+description: 'This are the types of Organization that represent defenders'
+weight: 0

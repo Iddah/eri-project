@@ -1,0 +1,29 @@
+uuid: dba3584f-2c8c-4a96-a8ee-1d409be86e26
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.services_provided
+  module:
+    - facets
+    - system
+  theme:
+    - eri
+id: servicesprovided
+theme: eri
+region: sidebar_first
+weight: 2
+provider: null
+plugin: 'facet_block:services_provided'
+settings:
+  id: 'facet_block:services_provided'
+  label: 'Services provided'
+  provider: facets
+  label_display: '0'
+  block_id: servicesprovided
+visibility:
+  request_path:
+    id: request_path
+    pages: /organizations-listing
+    negate: false
+    context_mapping: {  }

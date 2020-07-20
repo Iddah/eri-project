@@ -1,0 +1,23 @@
+uuid: a12f7b0c-2335-40d2-bdbc-759890937bbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_top_highlight
+    - node.type.highlights
+id: node.highlights.field_top_highlight
+field_name: field_top_highlight
+entity_type: node
+bundle: highlights
+label: 'Top highlight'
+description: 'This is the main highlight under highlights section on the home pahe'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

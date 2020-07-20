@@ -1,0 +1,31 @@
+uuid: 4eeaf4d3-f2a1-4520-9c5c-bde27643215e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:60fdd0d7-5d2b-4962-9c34-169b5e75690c'
+  module:
+    - block_content
+    - system
+  theme:
+    - eri
+id: organizationheader
+theme: eri
+region: content
+weight: 1
+provider: null
+plugin: 'block_content:60fdd0d7-5d2b-4962-9c34-169b5e75690c'
+settings:
+  id: 'block_content:60fdd0d7-5d2b-4962-9c34-169b5e75690c'
+  label: organization-header
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/organization-listing/*'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,22 @@
+uuid: 7e9451d1-2549-4c51-8480-bcb4158be00b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eri
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: eri_breadcrumbs
+theme: eri
+region: header
+weight: -12
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: visible
+visibility: {  }

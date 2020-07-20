@@ -1,0 +1,20 @@
+uuid: ae251b9e-d868-4380-8b2d-d42da19c06fc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - eri
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: eri_local_actions
+theme: eri
+region: content
+weight: -9
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

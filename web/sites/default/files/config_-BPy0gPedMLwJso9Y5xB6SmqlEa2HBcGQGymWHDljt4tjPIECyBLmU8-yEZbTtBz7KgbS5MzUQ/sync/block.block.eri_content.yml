@@ -1,0 +1,22 @@
+uuid: 6449ed22-e400-44a2-b00d-39621431ff6e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - eri
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: eri_content
+theme: eri
+region: content
+weight: -8
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

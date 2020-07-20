@@ -1,0 +1,22 @@
+uuid: adee533b-69c0-4d77-8c5f-cbe0c2f4ec31
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - eri
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: eri_messages
+theme: eri
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

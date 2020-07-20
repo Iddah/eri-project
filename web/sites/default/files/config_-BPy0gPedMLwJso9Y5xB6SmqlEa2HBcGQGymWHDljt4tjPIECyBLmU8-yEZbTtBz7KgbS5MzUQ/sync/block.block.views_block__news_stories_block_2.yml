@@ -1,0 +1,30 @@
+uuid: 89ce37dc-ce81-4c3d-a249-f65796c4c049
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_stories
+  module:
+    - system
+    - views
+  theme:
+    - eri
+id: views_block__news_stories_block_2
+theme: eri
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:news_stories-block_2'
+settings:
+  id: 'views_block:news_stories-block_2'
+  label: 'News & Stories'
+  provider: views
+  label_display: visible
+  views_label: 'News & Stories'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

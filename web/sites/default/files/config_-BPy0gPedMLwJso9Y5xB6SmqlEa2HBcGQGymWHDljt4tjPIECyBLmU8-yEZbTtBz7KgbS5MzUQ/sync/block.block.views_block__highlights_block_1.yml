@@ -1,0 +1,30 @@
+uuid: 74ee90bd-ad2f-4bab-ae33-43d9d9095d1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.highlights
+  module:
+    - system
+    - views
+  theme:
+    - eri
+id: views_block__highlights_block_1
+theme: eri
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:highlights-block_1'
+settings:
+  id: 'views_block:highlights-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

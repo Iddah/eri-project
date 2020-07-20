@@ -1,0 +1,29 @@
+uuid: fb12a0f1-e659-470c-ac56-4256cbe8bd16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_of_legal_services_pro
+    - node.type.organization
+    - taxonomy.vocabulary.services_provided
+id: node.organization.field_type_of_legal_services_pro
+field_name: field_type_of_legal_services_pro
+entity_type: node
+bundle: organization
+label: 'Type of legal services provided'
+description: 'Add a type of legal services provided from the list of links'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      services_provided: services_provided
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

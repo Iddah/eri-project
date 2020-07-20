@@ -1,0 +1,19 @@
+uuid: 88474c18-88a2-4d9e-ba1b-a570abe8d21c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_name
+    - node.type.organization
+id: node.organization.field_contact_name
+field_name: field_contact_name
+entity_type: node
+bundle: organization
+label: 'Contact name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

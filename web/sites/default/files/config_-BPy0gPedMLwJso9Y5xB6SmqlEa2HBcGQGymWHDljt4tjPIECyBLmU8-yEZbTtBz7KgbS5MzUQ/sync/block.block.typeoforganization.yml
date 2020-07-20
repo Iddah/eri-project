@@ -1,0 +1,29 @@
+uuid: e62e3626-cd4f-467b-b75f-24a44373f646
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.type_of_organization
+  module:
+    - facets
+    - system
+  theme:
+    - eri
+id: typeoforganization
+theme: eri
+region: sidebar_first
+weight: 1
+provider: null
+plugin: 'facet_block:type_of_organization'
+settings:
+  id: 'facet_block:type_of_organization'
+  label: 'Type of Organization'
+  provider: facets
+  label_display: '0'
+  block_id: typeoforganization
+visibility:
+  request_path:
+    id: request_path
+    pages: /organizations-listing
+    negate: false
+    context_mapping: {  }

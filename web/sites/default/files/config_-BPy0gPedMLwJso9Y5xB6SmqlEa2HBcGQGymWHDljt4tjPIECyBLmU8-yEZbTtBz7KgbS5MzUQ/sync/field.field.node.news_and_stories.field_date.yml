@@ -1,0 +1,21 @@
+uuid: cd4c7fa5-01b4-4eda-a544-ee9636e8e07e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.news_and_stories
+  module:
+    - datetime
+id: node.news_and_stories.field_date
+field_name: field_date
+entity_type: node
+bundle: news_and_stories
+label: Date
+description: 'Date story is published'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

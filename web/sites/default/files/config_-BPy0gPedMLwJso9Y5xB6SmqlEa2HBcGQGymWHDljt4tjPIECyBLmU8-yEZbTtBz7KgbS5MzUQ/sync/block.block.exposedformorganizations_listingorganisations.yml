@@ -1,0 +1,29 @@
+uuid: f9e6b69a-b7c2-4d5e-ac60-63f40edeabd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.organizations_listing
+  module:
+    - system
+    - views
+  theme:
+    - eri
+id: exposedformorganizations_listingorganisations
+theme: eri
+region: sidebar_first
+weight: 3
+provider: null
+plugin: 'views_exposed_filter_block:organizations_listing-organisations'
+settings:
+  id: 'views_exposed_filter_block:organizations_listing-organisations'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /organizations-listing
+    negate: false
+    context_mapping: {  }

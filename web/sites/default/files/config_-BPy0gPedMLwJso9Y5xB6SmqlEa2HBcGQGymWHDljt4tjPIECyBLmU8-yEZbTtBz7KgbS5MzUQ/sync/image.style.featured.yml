@@ -1,0 +1,15 @@
+uuid: ebfc3e7d-89f0-4c59-8245-fb14e9b7e8f7
+langcode: en
+status: true
+dependencies: {  }
+name: featured
+label: 'featured (935×400)'
+effects:
+  0807ac88-5c04-4b73-a9be-2e7135932339:
+    uuid: 0807ac88-5c04-4b73-a9be-2e7135932339
+    id: image_scale
+    weight: 2
+    data:
+      width: 935
+      height: 400
+      upscale: false

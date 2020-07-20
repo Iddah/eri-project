@@ -1,0 +1,121 @@
+uuid: 8c20f5a2-8470-4e9d-b211-563a5e13bde4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.organization.body
+    - field.field.node.organization.field_contact_email
+    - field.field.node.organization.field_contact_name
+    - field.field.node.organization.field_country
+    - field.field.node.organization.field_e_mail_address
+    - field.field.node.organization.field_image
+    - field.field.node.organization.field_phone_number
+    - field.field.node.organization.field_region
+    - field.field.node.organization.field_telephone
+    - field.field.node.organization.field_type_of_legal_services_pro
+    - field.field.node.organization.field_type_of_organization
+    - field.field.node.organization.field_website_name
+    - node.type.organization
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.organization.default
+targetEntityType: node
+bundle: organization
+mode: default
+content:
+  body:
+    label: visually_hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_contact_email:
+    weight: 116
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_contact_name:
+    weight: 115
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_country:
+    weight: 99
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_e_mail_address:
+    weight: 106
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_image:
+    weight: 114
+    label: visually_hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_telephone:
+    weight: 107
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_type_of_legal_services_pro:
+    weight: 104
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_type_of_organization:
+    weight: 100
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_website_name:
+    weight: 108
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 113
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_phone_number: true
+  field_region: true
+  langcode: true
+  search_api_excerpt: true

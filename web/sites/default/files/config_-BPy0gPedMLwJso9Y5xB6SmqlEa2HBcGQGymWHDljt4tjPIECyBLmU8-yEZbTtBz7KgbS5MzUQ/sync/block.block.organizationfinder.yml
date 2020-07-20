@@ -1,0 +1,31 @@
+uuid: 20e0b1c9-db38-4290-975b-cb3893bc474d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7a28a435-4502-4104-8ec4-06c7bca40ede'
+  module:
+    - block_content
+    - system
+  theme:
+    - eri
+id: organizationfinder
+theme: eri
+region: organization
+weight: -11
+provider: null
+plugin: 'block_content:7a28a435-4502-4104-8ec4-06c7bca40ede'
+settings:
+  id: 'block_content:7a28a435-4502-4104-8ec4-06c7bca40ede'
+  label: 'Organization Finder'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

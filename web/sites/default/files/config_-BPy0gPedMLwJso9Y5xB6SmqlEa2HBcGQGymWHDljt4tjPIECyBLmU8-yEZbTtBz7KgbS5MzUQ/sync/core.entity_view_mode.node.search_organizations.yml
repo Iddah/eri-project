@@ -1,0 +1,10 @@
+uuid: 37e290ee-4d31-46f4-b96e-67e299ab9be2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.search_organizations
+label: 'search organizations'
+targetEntityType: node
+cache: true

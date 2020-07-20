@@ -1,0 +1,31 @@
+uuid: 6ea870f5-56d1-48ec-abb5-e396e76d6f4f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7acd10c2-2225-45fc-9055-b784314a818c'
+  module:
+    - block_content
+    - system
+  theme:
+    - eri
+id: featured
+theme: eri
+region: featured
+weight: -7
+provider: null
+plugin: 'block_content:7acd10c2-2225-45fc-9055-b784314a818c'
+settings:
+  id: 'block_content:7acd10c2-2225-45fc-9055-b784314a818c'
+  label: featured
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

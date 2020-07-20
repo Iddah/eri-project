@@ -1,0 +1,25 @@
+uuid: b91a0710-e515-4eec-ac97-e36351ff5103
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.organizations
+  module:
+    - views
+  theme:
+    - eri
+id: views_block__organizations_orgsearch
+theme: eri
+region: organization
+weight: -10
+provider: null
+plugin: 'views_block:organizations-orgsearch'
+settings:
+  id: 'views_block:organizations-orgsearch'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '5'
+  context_mapping: {  }
+visibility: {  }

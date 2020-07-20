@@ -1,0 +1,18 @@
+uuid: aa7b1bef-b5c9-45c5-b53e-b6b9ae364d96
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'News and Stories'
+type: news_and_stories
+description: 'Add news and stories to be highlighted'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

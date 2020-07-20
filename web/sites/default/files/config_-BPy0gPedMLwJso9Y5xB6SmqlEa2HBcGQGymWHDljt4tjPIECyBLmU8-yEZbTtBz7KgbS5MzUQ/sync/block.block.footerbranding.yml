@@ -1,0 +1,25 @@
+uuid: 35d74dfd-e2c5-44de-9687-c9f52e4ba192
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dd9bfd11-d96e-4233-b19e-8333528e434f'
+  module:
+    - block_content
+  theme:
+    - eri
+id: footerbranding
+theme: eri
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:dd9bfd11-d96e-4233-b19e-8333528e434f'
+settings:
+  id: 'block_content:dd9bfd11-d96e-4233-b19e-8333528e434f'
+  label: footer-branding
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

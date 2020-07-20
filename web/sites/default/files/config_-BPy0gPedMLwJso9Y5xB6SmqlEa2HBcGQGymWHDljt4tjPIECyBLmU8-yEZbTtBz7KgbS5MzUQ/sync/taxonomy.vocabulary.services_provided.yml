@@ -1,0 +1,8 @@
+uuid: a25a43c1-ab12-4af2-af44-a1a3ca7e97b3
+langcode: en
+status: true
+dependencies: {  }
+name: 'Services Provided'
+vid: services_provided
+description: 'A list of the services provided by the organization'
+weight: 0

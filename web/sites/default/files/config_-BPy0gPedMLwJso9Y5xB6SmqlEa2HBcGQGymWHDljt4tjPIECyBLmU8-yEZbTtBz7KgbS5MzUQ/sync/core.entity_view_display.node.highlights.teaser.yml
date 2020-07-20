@@ -1,0 +1,34 @@
+uuid: d0fbe0b7-df0c-4177-94e7-c5665423b9f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.highlights.body
+    - field.field.node.highlights.field_top_highlight
+    - node.type.highlights
+  module:
+    - text
+    - user
+id: node.highlights.teaser
+targetEntityType: node
+bundle: highlights
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_top_highlight: true
+  langcode: true
+  search_api_excerpt: true

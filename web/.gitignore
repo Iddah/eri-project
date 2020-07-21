@@ -11,3 +11,5 @@
 /robots.txt
 /update.php
 /web.config
+/sites/default/settings.local.php
+/sites/default/files

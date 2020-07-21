@@ -24,7 +24,8 @@
         "drupal/facets": "^1.4",
         "drupal/pathauto": "^1.8",
         "drupal/search_api": "^1.16",
-        "drupal/search_api_solr": "^4.0"
+        "drupal/search_api_solr": "^4.0",
+        "drush/drush": "^10.3"
     },
     "conflict": {
         "drupal/drupal": "*"

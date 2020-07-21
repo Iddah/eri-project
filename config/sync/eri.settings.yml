@@ -1,0 +1,38 @@
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: sites/default/files/favicon.ico
+  url: 'http://drupal.rights/sites/default/files/favicon.ico'
+  use_default: 0
+schemas:
+  bootstrap: 8000
+  eri: 8000
+features:
+  comment_user_picture: 0
+  comment_user_verification: 0
+  favicon: 0
+  node_user_picture: 0
+logo:
+  path: themes/custom/eri/logo.png
+  url: ''
+  use_default: 0
+table_responsive: '-1'
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+reset_http_request_cache: ''
+table: ''
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  featured: ''
+  organization: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+breadcrumb_home: 1

@@ -751,19 +751,9 @@ $settings['entity_update_backup'] = TRUE;
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
-$databases['default']['default'] = array (
-  'database' => 'eri',
-  'username' => 'eri',
-  'password' => 'root',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
-$settings['config_sync_directory'] = 'sites/default/files/config_-BPy0gPedMLwJso9Y5xB6SmqlEa2HBcGQGymWHDljt4tjPIECyBLmU8-yEZbTtBz7KgbS5MzUQ/sync';
-$settings['container_yamls'][] =  'sites/development.services.yml';
+
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
+
+$settings['config_sync_directory'] = '../config/sync';

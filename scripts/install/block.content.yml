@@ -1,0 +1,28 @@
+7acd10c2-2225-45fc-9055-b784314a818c:
+    title: featured
+    body: "<div class=\"top-info\">\r\n<h5>Legal Assistance and Resources<br />\r\nfor Environmental Defenders</h5>\r\n\r\n<p>This database links environmental defenders from around the world, as well as the general public, to organizations that can provide them with legal support; as part of the United Nations Environment Programme’s work on environmental rights.</p>\r\n</div>\r\n"
+    id: '1'
+7a28a435-4502-4104-8ec4-06c7bca40ede:
+    title: 'organization finder'
+    body: "<div class=\"org-finder\">\r\n<h4>Organisation Finder&nbsp; <a href=\"/organisations-listing\">See all Organizations</a></h4>\r\n\r\n<p>Connect to free legal assistance and support on human rights and environment matters. Search by country, region, organization type, service provided and keyword.</p>\r\n\r\n<p>&nbsp;</p>\r\n</div>\r\n"
+    id: '2'
+60fdd0d7-5d2b-4962-9c34-169b5e75690c:
+    title: organization-header
+    body: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>\r\n"
+    id: '3'
+c2671364-45ef-43dd-995c-28b3b9ecf0b0:
+    title: Highlights
+    body: "<p><img alt=\"highlights\" data-entity-type=\"file\" data-entity-uuid=\"20eb1eab-6bb3-485e-91cb-7e3189f4374b\" src=\"/sites/default/files/inline-images/highlights.PNG\" /></p>\r\n\r\n<p>&nbsp;</p>\r\n"
+    id: '4'
+1cdbd34a-3635-4d0a-bd1e-18917604cbb6:
+    title: 'Social icons'
+    body: "<p>&lt;ul class=\"social-icons\"&gt;</p>\r\n\r\n<p>&lt;li&gt;&lt;a class=\"button--icon\" target='_blank' href=\"https://www.facebook.com/PacktPub\" title-\"&gt;&lt;i class=\"fa-facebook\"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</p>\r\n\r\n<p>&lt;li&gt;&lt;a class=\"button--icon\" target='_blank' href=\"https://www.facebook.com/PacktPub\" title-\"&gt;&lt;i class=\"fa-facebook\"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</p>\r\n\r\n<p>&lt;li&gt;&lt;a class=\"button--icon\" target='_blank' href=\"https://www.facebook.com/PacktPub\" title-\"&gt;&lt;i class=\"fa-facebook\"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</p>\r\n"
+    id: '5'
+16e9e267-8d08-4c11-a291-e6475ca9fdfa:
+    title: page-description
+    body: "<p>Connect to free legal assistance and support on human rights and environment matters.</p>\r\n\r\n<p>Search by country, region, organization type, service provided and keyword.</p>\r\n"
+    id: '6'
+dd9bfd11-d96e-4233-b19e-8333528e434f:
+    title: footer-branding
+    body: "<p><img alt=\"un environment logo\" data-entity-type=\"file\" data-entity-uuid=\"d235f7b6-abf8-42ff-812a-86d9252c3079\" height=\"123\" src=\"/sites/default/files/inline-images/unep-logo-2.png\" width=\"123\" /></p>\r\n\r\n<p>@ United Nations Environment Programme | Terms of Use</p>\r\n"
+    id: '7'

@@ -3,11 +3,15 @@
  * your custom CSS modifications here.
  */
 
- @import url('https://use.fontawesome.com/releases/v5.0.9/css/all.css');
-
 .navbar{
 	border: 0px
 }
+
+.navbar-default{
+	background-color:#FFFFFF !important;
+}
+
+
 .navbar-default .navbar-nav > li > a{
   color: #090808;
 }
@@ -53,7 +57,7 @@
 
 .jumbotron {
 	background-image:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
-		url(http://drupal.rights/sites/default/files/inline-images/Birhan-wider.jpg);
+		url(/sites/default/files/inline-images/Birhan-wider.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -63,6 +67,7 @@
   	 padding-top: 30px;
   }
    .top-info h5 {
+  	  font-family: roboto;
   	  font-size: 30px;
       color: #FFFFFF !important;
       font-weight: bold;
@@ -128,7 +133,6 @@
 .org-finder h5 {
 	font-size: 20px;
     color: #00548B !important;
-
 }
 
 .org-finder p{
@@ -157,6 +161,32 @@ font-size: 0;
 	background-color: #f9f5f5;
 	border: solid 1px #e6e3e3;
 }
+
+
+/*Highlights*/
+
+.view-highlights .views-field-title {
+	color: #0e0f0f;
+	text-decoration: none;
+	font-family: roboto;
+	font-weight: bold;
+}
+
+.view-highlights .field-content a{
+	color:#16b1fb;
+	font-weight: bold;
+}
+
+.view-highlights .field-content p {
+	font-family: roboto;
+	padding: 15px 0 10px 0;
+}
+/*news and stories*/
+
+.views-view-grid .views-row{
+	padding-top: 20px;
+}
+
 
 /*Organization page*/
 
@@ -411,15 +441,12 @@ font-weight: bold;
 }
 
 .row-items-stories a{
-	font-family: roboto;
 	color: #1E1E1E;
 	font-weight: bold;
 	line-height: 5px;
-	width:80% !important;
 }
 
 .input#edit-submit {
-	font-family: 'Font Awesome\ 5 Free';
 	background-color: transparent;
 	border: 0;  
 }

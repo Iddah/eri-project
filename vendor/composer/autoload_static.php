@@ -126,6 +126,8 @@ class ComposerStaticInitd2f8b9a9ae4721ce0f8c699478c2e632
         'E' => 
         array (
             'Egulias\\EmailValidator\\' => 23,
+            'EauDeWeb\\Robo\\Task\\Curl\\' => 24,
+            'EauDeWeb\\' => 9,
         ),
         'D' => 
         array (
@@ -154,6 +156,10 @@ class ComposerStaticInitd2f8b9a9ae4721ce0f8c699478c2e632
             'Consolidation\\AnnotatedCommand\\' => 31,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
+        ),
+        'B' => 
+        array (
+            'Boedah\\Robo\\Task\\Drush\\' => 23,
         ),
         'A' => 
         array (
@@ -398,6 +404,14 @@ class ComposerStaticInitd2f8b9a9ae4721ce0f8c699478c2e632
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator',
         ),
+        'EauDeWeb\\Robo\\Task\\Curl\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/eaudeweb/robo-curl/src',
+        ),
+        'EauDeWeb\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/eaudeweb/heavy-lifter/src',
+        ),
         'Drush\\Internal\\' => 
         array (
             0 => __DIR__ . '/..' . '/drush/drush/src/internal-forks',
@@ -485,6 +499,10 @@ class ComposerStaticInitd2f8b9a9ae4721ce0f8c699478c2e632
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
+        ),
+        'Boedah\\Robo\\Task\\Drush\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/boedah/robo-drush/src',
         ),
         'Asm89\\Stack\\' => 
         array (

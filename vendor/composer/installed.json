@@ -54,6 +54,52 @@
         ]
     },
     {
+        "name": "boedah/robo-drush",
+        "version": "4.2.0",
+        "version_normalized": "4.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/boedah/robo-drush.git",
+            "reference": "1ce48694a5bd794bdc6fa006ee32e0a9bf693d52"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/boedah/robo-drush/zipball/1ce48694a5bd794bdc6fa006ee32e0a9bf693d52",
+            "reference": "1ce48694a5bd794bdc6fa006ee32e0a9bf693d52",
+            "shasum": ""
+        },
+        "require": {
+            "consolidation/robo": "~1",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "drush/drush": "^8.0 | ^9.0",
+            "phpunit/phpunit": "~4.4"
+        },
+        "suggest": {
+            "drush/drush": "robo-drush needs a global or local Drush to use."
+        },
+        "time": "2018-12-11T14:42:40+00:00",
+        "type": "robo-tasks",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Boedah\\Robo\\Task\\Drush\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Peter Gasser",
+                "email": "dev@boedah.de"
+            }
+        ],
+        "description": "Drush CommandStack for Robo Task Runner"
+    },
+    {
         "name": "chi-teck/drupal-code-generator",
         "version": "1.32.1",
         "version_normalized": "1.32.1.0",
@@ -2825,6 +2871,95 @@
             "rdfa",
             "sparql"
         ]
+    },
+    {
+        "name": "eaudeweb/heavy-lifter",
+        "version": "1.3.7",
+        "version_normalized": "1.3.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eaudeweb/heavy-lifter.git",
+            "reference": "c30d512f0ba55a76874f72321101e173b1aa7e02"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eaudeweb/heavy-lifter/zipball/c30d512f0ba55a76874f72321101e173b1aa7e02",
+            "reference": "c30d512f0ba55a76874f72321101e173b1aa7e02",
+            "shasum": ""
+        },
+        "require": {
+            "boedah/robo-drush": "^4.1",
+            "eaudeweb/robo-curl": "^1.0",
+            "php": ">=5.6.0",
+            "webflo/drupal-finder": "^1.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.7"
+        },
+        "suggest": {
+            "eaudeweb/gdpr-dump": "1.0.6"
+        },
+        "time": "2019-10-21T14:19:52+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "EauDeWeb\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Cristian Romanescu",
+                "email": "cristian@romanescu.ro"
+            }
+        ],
+        "description": "Common commands for your Drupal project to get you up to speed"
+    },
+    {
+        "name": "eaudeweb/robo-curl",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/eaudeweb/robo-curl.git",
+            "reference": "c646df96e4a0e46721033f1ec18af474c4002dc7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/eaudeweb/robo-curl/zipball/c646df96e4a0e46721033f1ec18af474c4002dc7",
+            "reference": "c646df96e4a0e46721033f1ec18af474c4002dc7",
+            "shasum": ""
+        },
+        "require": {
+            "consolidation/robo": "~1",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.4"
+        },
+        "time": "2018-11-19T21:31:41+00:00",
+        "type": "robo-tasks",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "EauDeWeb\\Robo\\Task\\Curl\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cristian Romanescu",
+                "email": "cristian@romanescu.ro"
+            }
+        ],
+        "description": "Robo command wrapper for cURL command line client"
     },
     {
         "name": "egulias/email-validator",

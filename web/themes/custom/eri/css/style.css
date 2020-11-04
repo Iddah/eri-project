@@ -450,3 +450,9 @@ font-weight: bold;
 	background-color: transparent;
 	border: 0;  
 }
+
+.region-sidebar-second .views-row {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: solid 1px #e6e3e3;
+}

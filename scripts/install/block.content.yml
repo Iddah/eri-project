@@ -24,5 +24,5 @@ c2671364-45ef-43dd-995c-28b3b9ecf0b0:
     id: '6'
 dd9bfd11-d96e-4233-b19e-8333528e434f:
     title: footer-branding
-    body: "<p><img alt=\"un environment logo\" data-entity-type=\"file\" data-entity-uuid=\"d235f7b6-abf8-42ff-812a-86d9252c3079\" height=\"123\" src=\"/sites/default/files/inline-images/unep-logo-2.png\" width=\"123\" /></p>\r\n\r\n<p>@ United Nations Environment Programme | Terms of Use</p>\r\n"
+    body: "<p><img alt=\"un environment logo\" height=\"50\" src=\"/sites/default/files/inline-images/unep-white-logo.png\" /></p>\r\n\r\n<p>&nbsp;&nbsp;&nbsp; © United Nations Environment Programme | Terms of Use</p>\r\n"
     id: '7'

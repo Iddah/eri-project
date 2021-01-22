@@ -17,10 +17,10 @@ provider: null
 plugin: 'views_block:news_stories-block_2'
 settings:
   id: 'views_block:news_stories-block_2'
-  label: 'News & Stories'
+  label: 'News and Stories'
   provider: views
   label_display: visible
-  views_label: 'News & Stories'
+  views_label: 'News and Stories'
   items_per_page: none
 visibility:
   request_path:

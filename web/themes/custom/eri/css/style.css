@@ -2,7 +2,9 @@
  * If using a CSS pre-processor, tell it to overwrite this file. If not, place
  * your custom CSS modifications here.
  */
-
+.body{
+	font-family: 'Roboto', sans-serif;
+}
 .navbar{
 	border: 0px
 }
@@ -49,9 +51,17 @@
 }
 
 .site-footer {
-	background:#009fe3;
+	background:#00abf1;
 	color: white;
 	padding: 50px 0 0 0;
+}
+
+.site-footer p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #ffffff;
+	letter-spacing: 0.2px;
+	padding-bottom: 10px;
 }
 /*header image and secion*/
 
@@ -65,18 +75,18 @@
 
   .top-info{
   	 padding-top: 30px;
+  	 -webkit-align-content: center;
   }
    .top-info h5 {
-  	  font-family: roboto;
+  	  font-family: 'Roboto Condensed',sans-serif;
   	  font-size: 30px;
       color: #FFFFFF !important;
       font-weight: bold;
   }
 
   .top-info p {
-  	font-family: Roboto;
+  	font-family: 'Roboto',sans-serif;
   	font-size: 15px;
-  	column-count:2;
   	column-gap:40px;
   	line-height: 24px;
   	color: #FFFFFF;
@@ -102,7 +112,7 @@
 	background-color: #4aa035;
 	color: #FFFFFF;
 	height: 200px;
-    font-family: roboto;
+    font-family: Roboto;
     line-height: 2;
     padding-top: 5px;
     margin-bottom: 30px;
@@ -113,12 +123,19 @@
   padding-top: 10px;
 }
 
+/*block styling*/
+
+.block-title h2{
+	font-family: 'Roboto', sans-serif;
+}
+
+
 /*Organization finder section*/
 
 .region-organization {
 	background-color: #4aa035;
 	 color: #FFFFFF;
-  	font-family: Roboto;
+  	font-family: 'Roboto', sans-serif;
     font-size: 16px;
    bottom: 100px;
    position: relative;
@@ -126,7 +143,7 @@
 
 .org-finder h4{
 	font-size: 24px;
-    font-family: roboto regular;
+    font-family: 'Roboto', sans-serif;
     padding-left: 15px;
 }
 
@@ -137,7 +154,7 @@
 
 .org-finder p{
     font-size: 18px;
-    font-family: roboto regular;
+    font-family: 'Roboto', sans-serif;
 	padding: 10px 20px;
 }
 
@@ -168,7 +185,7 @@ font-size: 0;
 .view-highlights .views-field-title {
 	color: #0e0f0f;
 	text-decoration: none;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
 
@@ -178,7 +195,7 @@ font-size: 0;
 }
 
 .view-highlights .field-content p {
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	padding: 15px 0 10px 0;
 }
 /*news and stories*/
@@ -205,13 +222,13 @@ font-size: 0;
 	margin-bottom: 5px;
 	color: #4C9F38;
 	text-decoration: none;
-	font-family: roboto bold;
+	font-family: Roboto bold;
 	font-size: 28px;
 	line-height: 27px;
 }
 
 .node-teaser  p{
-	font-family: roboto regular;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #1E1E1E;
 	padding: 10px 0 5px 0;
@@ -219,7 +236,7 @@ font-size: 0;
 
 .node-teaser .field--label{
 	font-weight: normal;
-	font-family: roboto regular;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	color: #666;
 }
@@ -248,12 +265,12 @@ font-size: 0;
 	margin-bottom: 5px;
 	color: #4C9F38;
 	text-decoration: none;
-	font-family: roboto bold;
+	font-family: Roboto bold;
 	line-height: 27px;
 }
 
 .node-full  p{
-	font-family: roboto regular;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #1E1E1E;
 	padding: 10px 0 5px 0;
@@ -261,7 +278,7 @@ font-size: 0;
 
 .node-full .field--label{
 	font-weight: normal;
-	font-family: roboto regular;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	color: #666;
 }
@@ -325,7 +342,7 @@ font-size: 0;
 .side-bar a{
 font-size: 14px;
 color:#1a62bb;
-font-family: roboto regular;
+font-family: Roboto;
 }
 
 .page-header{
@@ -337,14 +354,14 @@ font-family: roboto regular;
 	border-bottom: transparent;
 	background-color: #4aa035;
 	font-size: 38px;
-	font-family: roboto bold;
+	font-family: Roboto;
 	line-height: 48px;
 	letter-spacing: normal;
 	align-content: left;
 }
 
 .page-header p{
-	font-family: roboto regular;
+	font-family: Roboto;
 	font-size: 20px;
 	line-height: 28px;
 	color: #FFF;
@@ -383,7 +400,7 @@ font-family: roboto regular;
 	padding-top: 10px;
 	background-color: white;
 	margin: 1px 0 5px 20px;
-	font-family: roboto;
+	font-family: Roboto;
 	border: none;
 	padding: 12px 16px;
 }
@@ -426,7 +443,6 @@ font-family: roboto regular;
   bottom: 0px;
   background-color: white;
   height: 100px;
-  position: absolute;
   width: 300px;
   font-size: 16px;
 line-height: 24px;
@@ -434,9 +450,9 @@ font-weight: bold;
 }
 
 .story-label{
-	 font-family: roboto;
+	 font-family: Roboto;
 	font-size: 14px;
-	color: #0E0E0E;
+	color: #656565;
 	padding-top: 5px;
 }
 
